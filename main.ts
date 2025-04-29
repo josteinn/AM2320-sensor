@@ -40,12 +40,12 @@ namespace AM2320_Sensor {
     }
 
     //% block
-    export function getTemperature(): number {
+    export function temperature(): number {
         return temp;
     }
 
     //% block
-    export function getHumidity(): number {
+    export function humidity(): number {
         return hmid;
     }
 }
